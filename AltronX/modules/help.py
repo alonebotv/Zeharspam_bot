@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝗚𝗼𝗱𝗳𝗮𝘁𝗵𝗲𝗿𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @YOUR_GODFATHER_XD**"
+PythonHelp = f"★ 𝗚𝗼𝗱𝗳𝗮𝘁𝗵𝗲𝗿𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @zehar3_bot**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝗚𝗼𝗱𝗳𝗮𝘁𝗵𝗲𝗿𝘀𝗽𝗮𝗺 𝙃𝙚
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://te.legra.ph/file/3f8c9a32f059e8cf1f4d0.jpg",
+                                  "https://te.legra.ph/file/6a817381d251ba2ebe228.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ABOUT_GODFATHER"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/zehar_dpz"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/touch_your_heart31")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @YOUR_GODFATHER_XD**
+**© @zehar3_bot**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @YOUR_GODFATHER_XD**
+**© @zehar3_bot**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @YOUR_GODFATHER_XD**
+** © @zehar3_bot**
 """                     
            
            
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ABOUT_GODFATHER"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/zehar_dpz"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/touch_your_heart31")
            ],
            ],
         )           
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @zehar3_bot", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @zehar3_bot", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Make Your Own Tosu bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu bots !! @zehar3_bot", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Make Your Own Tosu Bots !! @YOUR_GODFATHER_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @zehar3_bot", cache_time=0, alert=True)
