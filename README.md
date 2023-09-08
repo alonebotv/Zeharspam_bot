@@ -1,8 +1,8 @@
 <h1 align="center"><b>😈𝐙𝐄𝐇𝐀𝐑 𝙓 𝐒𝐏𝐀𝐌 🔥💫 😈</b></h1>
-
+<p align="center"><a href="https://t.me/zehar3_bot"><img src="[https://te.legra.ph/file/6a817381d251ba2ebe228.jpg]" width="400"></a></p>
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/zehar3_bot"><img src="[https://te.legra.ph/file/6a817381d251ba2ebe228.jpg]" width="400"></a></p>
+
 
 
 > ⭐️ Thanks to everyone for using THIS OP ZEHAR x SPAM BOT, That is the greatest pleasure we have !
